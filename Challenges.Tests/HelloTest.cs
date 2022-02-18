@@ -9,7 +9,7 @@ namespace Challenges.Tests
         public void HelloWorld_ReturnWorld()
         {
             var hello = new Hello();
-            Assert.Equal(hello.World(), "World");
+            Assert.Equal("World", hello.World());
         }
     }
 }
